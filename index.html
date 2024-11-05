@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Santander a un Clic</title>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css ">
+    <!--Normalize--- mantener los estilos similares en los navegadores-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--mi hoja de estilos-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+  <header>
+    <section class="iconosInicio">
+        <div class="icon-container">
+          <!-- Icono de Inicio de Sesion -->
+          <a href="#" class="icon-link" aria-label="Inicio de sesión">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/>
+              <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/>
+            </svg>
+          </a>
+          
+          <!-- Icono de carrito de compras -->
+          <a href="#" class="icon-link" aria-label="Carrito de Compras">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
+              <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/>
+              <path d="M17 17h-11v-14h-2"/>
+              <path d="M6 5l14 1l-1 7h-13"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+     <!--logo-->
+    <section class="sombra">
+        
+      <!--Navegacion--->
+    <nav class="navegacion">
+        <img src="img/Logo.png" alt="logo" width="15%" >
+        <a href="#acerca">Inicio</a>
+        <a href="#Categorias">Categorias</a>
+        <a href="#como-comprar">Cómo Comprar</a>
+        <a href="#vendedor">Vender</a>   
+
+    </nav>
+
+</section>
+</header>
+    <!-- Carrusel Bootstrap -->
+<section >
+  <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Banner 1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Platos Tipicos</h5>
+            <p>En cada bocado de la gastronomía santandereana se siente el abrazo cálido de sus montañas y el sabor auténtico de su gente, donde cada plato cuenta una historia de tradición y amor por la buena mesa.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner 5.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cultura</h5>
+            <p>Santander es un departamento colombiano que destaca por su rica cultura, impresionantes paisajes y una vibrante tradición musical.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner 4.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Artesanías</h5>
+            <p>Las artesanías de Santander reflejan la rica cultura y tradiciones de la región, destacándose por su diversidad en técnicas y materiales, que incluyen la cerámica, la cestería y el trabajo en cuero. </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="text-center sombra">
+    <p>Descubre lo mejor de Santander en un solo clic</p>
+    <!--Boton Explorar-->
+      <a href="#producto-destcado" class="boton">Explorar</a>
+   </div>
+</section><!--Fin Del Carusel-->
+
+<main>
+  <!--Acerca de nosotros-->
+  <section id="acerca" >
+  <h1 class="titulo" >Acerca de Nosotros</h1>
+
+  <h2>Nuestra Misión</h2>
+  <p>En E-commerce Santander a un Clic, nos proponemos ser el vínculo esencial entre los productores y empresas locales de Santander y aquellos consumidores que buscan autenticidad en cada compra. Nuestro objetivo es ofrecer una plataforma accesible y segura donde los productos santandereanos se destaquen por su calidad y su esencia regional.</p>
+  <br>
+  <h2>Compromiso con la Economía Local</h2>
+  <p>Cada transacción en Santander a un Clic es una oportunidad para apoyar a la economía local. Brindamos a los productores y artesanos un espacio para exponer y comercializar sus productos, fortaleciendo el crecimiento y la visibilidad de sus negocios.</p>
+  <br>
+  <h2>Conexión con la Cultura y Tradición Santandereana</h2>
+  <p>E-commerce Santander a un Clic no solo facilita el comercio en línea, sino que también celebra y comparte la riqueza cultural de nuestra región. Cada visita es una oportunidad para que los consumidores descubran productos auténticos y contribuyan a la preservación de nuestra herencia y valores.</p>
+  <br>
+  <h2>Calidad y Seguridad en Cada Compra</h2>
+  <p>Nuestro entorno digital está diseñado para que cada compra se realice en un ambiente seguro, confiable y de fácil acceso. Nos enorgullece ofrecer una experiencia donde los consumidores pueden confiar en la autenticidad de los productos y en la dedicación de nuestros productores locales.</p>
+  <br>
+  
+
+</section>
+<!--categorias-->
+<section id="Categorias" class="sombra">
+  <br>
+    <h2>Categorías Destacadas</h2>
+  
+    <div class="card-grid">
+    <div class="mb-4"><!--Alimentos-->
+        <div class="card" style="width: 18rem;">
+            <img src="img/alimentos.png" class="card-img-top" alt="Alimentos de Exportacion">
+            <div class="card-body">
+              <h5 class="card-title">Alimentos</h5>
+             <a href="#" class="btn btn-primary">Explorar</a>
+            </div>
+          </div>
+    </div>
+    <div class="mb-4"><!--Moda-->
+        <div class="card" style="width: 18rem;">
+            <img src="img/moda.png" class="card-img-top" alt="ropa de moda">
+            <div class="card-body">
+              <h5 class="card-title">Moda</h5>
+             <a href="#" class="btn btn-primary">Explorar</a>
+            </div>
+          </div>
+    </div>
+    <div class="mb-4"><!--Artesanías-->
+        <div class="card" style="width: 18rem;">
+            <img src="img/artesania.png" class="card-img-top" alt="artesania">
+            <div class="card-body">
+              <h5 class="card-title">Artesanías</h5>
+             <a href="#" class="btn btn-primary">Explorar</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</section> <!-- Fin de la sección de categorías -->
+<!--Productos Destacados-->
+<section id="producto-destcado">
+  <br>
+<h2>Productos Destacados con Valoraciones</h2>
+ <!-- Producto destacado 1 -->
+  <div class="card-grid">
+<div class="mb-4">
+    <div class="card" style="width: 30rem;">
+      <img src="img/producto1.jpeg" class="card-img-top" alt="camisas">
+      <div class="card-body">
+        <h5 class="card-title">Camisas</h5>
+        <p class="card-text">cop 20.000 </p>
+        <div class="d-flex align-items-center mb-2">
+          <!-- Valoración -->
+          <nspa class="text-warning me-1">★★★★☆</nspa>
+          <span>(4.5)</span>
+        </div>
+        <p class="text-muted">"Las camisas son increíbles! La variedad de estilos y colores es perfecta, y la calidad del material es excepcional. El ajuste es cómodo y favorecedor. Definitivamente, las recomiendo para quienes buscan estilo y confort."</p>
+        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+      </div>
+    </div>
+  </div>
+  
+ <!-- Producto destacado 2 -->
+<div class="mb-4">
+    <div class="card" style="width: 30rem;">
+      <img src="img/producto2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Panela</h5>
+        <p class="card-text">cop 4500</p>
+        <div class="d-flex align-items-center mb-2">
+          <!-- Valoración -->
+          <nspa class="text-warning me-1">★★★★☆</nspa>
+          <span>(4.5)</span>
+        </div>
+        <p class="text-muted">"La panela es deliciosa! Su sabor auténtico y natural mejora mis bebidas y postres. Me encanta que sea una opción más saludable que el azúcar refinado. ¡Totalmente recomendada!"</p>
+        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+      </div>
+    </div>
+  </div>
+  
+ <!-- Producto destacado 3 -->
+<div class="mb-4 ">
+  <div class="card" style="width: 30rem;">
+      <img src="img/producto3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mochila</h5>
+        <p class="card-text">COP 50.000</p>
+        <div class="d-flex align-items-center mb-2">
+          <nspa class="text-warning me-1">★★★★☆</nspa>
+          <span>(4.8)</span>
+        </div>
+        <p class="text-muted">"La mochila es perfecta para el día a día. Su diseño es moderno y espacioso, ideal para llevar todo lo necesario. Los compartimentos son muy útiles para organizar mis cosas. ¡La calidad es excepcional!"</p>
+        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section><!-- Fin de la sección de productos destacados -->
+<!--Recomendados-->
+<section id="recomendaciones" class="sombra">
+  <h2>Recomendaciones</h2>
+  <div class="card-recomendacion">
+  <div class="mb-4"><!--Lo mas Vendido del mes-->
+      <div class="card" style="width: 18rem;">
+          <img src="img/lomasvendido.png" class="card-img-top" alt="Lo mas Vendido del mes">
+          <div class="card-body">
+            <h5 class="card-title">Lo mas Vendido del mes</h5>
+           <a href="#" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+  </div>
+
+  <div class="mb-4"><!--Descuentos hasta del 20 %-->
+      <div class="card" style="width: 18rem;">
+          <img src="img/20descuento.png" class="card-img-top" alt="Producto en descuento">
+          <div class="card-body">
+            <h5 class="card-title">Descuentos hasta del 20 %</h5>
+           <a href="#" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+  </div>
+</div>
+</section>
+<!--Como Comprar-->
+<section id="como-comprar" >
+<h2>Cómo Comprar</h2>
+
+<ol>  
+  <li>Seleccionar productos y añadir al carrito.</li>  
+  <li>Completar los datos de envío y método de pago.</li>  
+  <li>Recibir el producto en el hogar.</li>  
+</ol> 
+</section> <!-- Fin de la sección de cómo comprar -->
+<!--Unete como vendedor-->
+<section id="vendedor" class="sombra">
+  <h2>Únete como Vendedor</h2>
+  <p>En <strong>E-commerce Santander a un Clic</strong>, creemos en el poder de lo local y en la riqueza de nuestras tradiciones. Te extendemos una cordial invitación para que te unas a nuestra plataforma como vendedor y seas parte de esta comunidad que celebra la autenticidad de nuestros productos.</p>
+  
+  <p>Al unirte, tendrás la oportunidad de:</p>
+  <ul>
+      <li><strong>Aumentar tu visibilidad:</strong> Conecta con una amplia base de consumidores que buscan productos únicos y de calidad de Santander.</li>
+      <li><strong>Facilitar tus ventas:</strong> Nuestra plataforma te ofrece un entorno seguro y accesible para gestionar tus transacciones de manera sencilla y eficiente.</li>
+      <li><strong>Impulsar la economía local:</strong> Al vender tus productos aquí, contribuyes a fortalecer la economía de nuestra región y a dar a conocer el talento de nuestros productores y artesanos.</li>
+  </ul>
+
+  <p>Si eres una empresa o productor local que desea compartir su pasión y productos con el mundo, <strong>E-commerce Santander a un Clic</strong> es el lugar ideal para ti. Únete hoy y empieza a formar parte de esta maravillosa comunidad que valora lo auténtico y lo local.</p>
+  
+  <p>¡Esperamos contar contigo!</p>
+  
+  <p><strong>Vende tus productos locales en nuestra plataforma y amplía tu alcance.</strong></p>
+
+<!--Boton Registro-->
+  <div class="text-center">
+  <a href="#formulario-contacto" class="boton">Registarse como vendedor</a>
+</div>
+</section><!-- Fin de la sección de vendedores -->
+<!--Testimonios-->
+<section id="testimonio">
+  <br>
+  <h2>Testimonios de Usuarios</h2>
+  <div class="card-grid">
+  <div class="mb-4">
+    <div class="card" style="width: 30rem;">
+      <img src="img/testimonio1.png" class="card-img-top" alt="imagen">
+      <div class="card-body">
+        <h5 class="card-title">Cliente: María López</h5>
+        <p class="text-muted">"Estoy muy contenta con mi experiencia de compra. Los productos que adquirí son de excelente calidad y llegaron a tiempo. La atención al cliente fue excepcional, siempre estuvieron dispuestos a ayudarme con mis dudas. Definitivamente volveré a comprar aquí."</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <div class="card" style="width: 30rem;">
+      <img src="img/testimonio2.png" class="card-img-top" alt="imagen">
+      <div class="card-body">
+        <h5 class="card-title">Cliente: Juan Pérez</h5>
+        <p class="text-muted">"He probado varios productos de esta plataforma y nunca me he decepcionado. La variedad es impresionante y siempre encuentro algo nuevo y local. Además, el proceso de compra es fácil y rápido. ¡Recomiendo a todos que apoyen a los vendedores locales!"</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <div class="card" style="width: 30rem;">
+      <img src="img/testimonio3.png" class="card-img-top" alt="imagen">
+      <div class="card-body">
+        <h5 class="card-title">Vendedor: Ana García</h5>
+        <p class="text-muted">"Como productora local, unirme a esta plataforma ha sido una de las mejores decisiones para mi negocio. He podido llegar a más clientes y recibir un gran apoyo de la comunidad. La plataforma es fácil de usar y el equipo siempre está disponible para ayudar. ¡Estoy emocionada de seguir creciendo aquí!"</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--Formulario-->
+<section id="formulario-contacto" class="sombra">
+  <h2>Formulario de Contacto</h2>
+  <form class=" formulario">
+          <fieldset>
+              <legend>Contactanos Llenando todos los campos </legend>
+              <div class="contenedor-campos">
+                  <div class="campos">
+                      <label for="Nombre">Nombre</label>
+                      <input class="input-text" type="text" placeholder="Digite el nombre" required>
+                  </div>
+                  <div class="campos">
+                      <label for="Telefono">Telefono</label>
+                      <input class="input-text" type="tel" name="telefono" id="telefono" placeholder="Tu Telefono" required pattern="^[0-9]{10}$" title="Por favor, ingresa un número de celular válido de 10 dígitos">
+                  </div>
+                  <div class="campos">
+                  <label for="Correo">Correo</label>
+                  <input class="input-text" type="email" placeholder="tu Correo" required>
+              </div>
+              <div class="campos">
+                  <label for="Empresa">Empresa</label>
+                  <input class="input-text" type="text" placeholder="Digite el nombre de la empresa" required>
+              </div>
+
+                  <div class="campos">
+                      <label for="Mensaje">Mensaje</label>
+                      <textarea class="input-text"name="" id="" required></textarea>
+                  </div>
+              </div>
+              <div class="alinear-derecha flex ">
+                   <button class="btn-enviar"  type="submit" value="Envia">Enviar</button>
+              </div>
+          </fieldset>
+          </form>
+          </section>
+
+</main>
+<footer>
+  <section>
+      <h2>INFORMATIVO</h2>
+      <!-- Enlaces importantes -->
+      <ul>
+          <li><a href="#">Política de Privacidad |</a></li>
+          <li><a href="#">Términos y Condiciones |</a></li>
+          <li><a href="#">Contacto</a></li>
+      </ul>
+      <!-- Iconos de redes sociales -->
+      <p>Síguenos en nuestras redes sociales:</p>
+      <div class="iconos">
+          <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <!-- Icono SVG de Facebook -->
+              <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 0H2C.895 0 0 .895 0 2v20c0 1.105.895 2 2 2h10.682v-8.653H9.691V12h3.012v-2.65c0-3.009 1.79-4.662 4.532-4.662 1.313 0 2.687.235 2.687.235v2.964h-1.515c-1.494 0-1.956.924-1.956 1.868V12h3.328l-.532 3.347h-2.796V24H22c1.105 0 2-.895 2-2V2c0-1.105-.895-2-2-2z"/>
+              </svg>
+          </a>
+          <a href="https://www.twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+              <!-- Icono SVG de Twitter -->
+              <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 4.557a9.548 9.548 0 0 1-2.828.775A4.92 4.92 0 0 0 23.337 3a9.83 9.83 0 0 1-3.127 1.2 4.903 4.903 0 0 0-8.397 4.467A13.9 13.9 0 0 1 1.67 3.15a4.903 4.903 0 0 0 1.515 6.545A4.861 4.861 0 0 1 .964 9.1v.06a4.903 4.903 0 0 0 3.93 4.8 4.897 4.897 0 0 1-2.21.085 4.91 4.91 0 0 0 4.58 3.417A9.835 9.835 0 0 1 0 19.54a13.864 13.864 0 0 0 7.548 2.213c9.057 0 14.01-7.513 14.01-14.01 0-.213-.005-.425-.014-.637A9.926 9.926 0 0 0 24 4.557z"/>
+              </svg>
+          </a>
+          <a href="https://www.instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <!-- Icono SVG de Instagram -->
+              <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.055 1.94.24 2.385.404.55.197.947.435 1.364.853.419.418.657.815.854 1.365.165.444.35 1.215.403 2.384.058 1.267.071 1.647.071 4.85s-.012 3.584-.07 4.85c-.055 1.17-.24 1.94-.404 2.385a3.535 3.535 0 0 1-.853 1.364 3.515 3.515 0 0 1-1.365.854c-.444.165-1.215.35-2.384.403-1.267.058-1.647.071-4.851.071s-3.584-.012-4.85-.07c-1.17-.055-1.94-.24-2.385-.404a3.55 3.55 0 0 1-1.364-.853 3.5 3.5 0 0 1-.854-1.365c-.165-.444-.35-1.215-.403-2.384-.058-1.267-.071-1.647-.071-4.85s.012-3.584.07-4.85c.055-1.17.24-1.94.404-2.385a3.535 3.535 0 0 1 .853-1.364 3.55 3.55 0 0 1 1.365-.854c.444-.165 1.215-.35 2.384-.403 1.267-.059 1.647-.071 4.851-.071zm0-2.163C8.691 0 8.267.013 7.06.071 5.87.13 4.989.316 4.29.571 3.293.935 2.528 1.479 1.854 2.153A6.585 6.585 0 0 0 .571 4.29c-.255.698-.441 1.579-.5 2.769C.013 8.267 0 8.691 0 12s.013 3.733.071 4.94c.059 1.19.245 2.071.5 2.769.41 1.034.954 1.799 1.628 2.473a6.578 6.578 0 0 0 2.137 1.283c.698.255 1.579.441 2.769.5C8.267 23.987 8.691 24 12 24s3.733-.013 4.94-.071c1.19-.059 2.071-.245 2.769-.5a6.578 6.578 0 0 0 2.137-1.283 6.58 6.58 0 0 0 1.283-2.137c.255-.698.441-1.579.5-2.769.059-1.207.071-1.631.071-4.94s-.013-3.733-.071-4.94c-.059-1.19-.245-2.071-.5-2.769a6.58 6.58 0 0 0-1.283-2.137A6.585 6.585 0 0 0 19.71.571c-.698-.255-1.579-.441-2.769-.5C15.733.013 15.309 0 12 0z"/>
+                  <circle cx="12" cy="12" r="3.5"/>
+                  <path d="M18.406 5.594a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
+              </svg>
+          </a>
+              <a href="https://web.whatsapp.com/" aria-label="whatsapp" target="_blank" rel="noopener noreferrer">
+                   <!-- Icono SVG de whatsapp -->
+              <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.552 4.17 1.598 5.978l-1.34 4.91 5.068-1.329C7.81 22.446 9.847 23 12 23c6.627 0 12-5.373 12-12S18.627 0 12 0zm6.034 17.116c-.292.817-1.699 1.577-2.42 1.687-.65.099-1.427.141-2.284-.146-.527-.169-1.157-.403-2.004-.785-1.631-.742-2.701-1.602-3.674-2.787-.973-1.184-1.584-2.223-1.78-3.011-.284-1.152.042-1.994.43-2.521.367-.494.801-.68 1.235-.587.316.067.631.308.985.801.209.296.433.647.684 1.052.292.476.132.776-.064 1.04-.118.158-.283.358-.46.563-.147.172-.313.348-.251.549.217.724.939 1.587 1.375 2.052.684.74 1.387 1.161 2.093 1.419.2.075.405.07.576-.07.186-.157.407-.466.634-.758.326-.417.696-.459 1.065-.317.394.155 1.236.583 1.452.68.217.097.434.202.658.315.292.147.532.29.72.447.262.225.532.47.488.748z"/>
+              </svg>
+
+          </a>
+      </div>
+  </section>
+  <section>
+      <p>COPYRIGHT © 2024 E-commerce Santander a un Clic</p>
+  </section>
+</footer> 
+<!-- Scripts necesarios para Bootstrap -->
+<!-- Popper.js - Requerido para algunos componentes de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<!-- Bootstrap Bundle JS - Incluye todos los componentes de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
